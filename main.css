@@ -22,7 +22,9 @@ h1 {
     color: palevioletred;
     margin-bottom: 10px;
 }
-
+h2{
+    margin-bottom: 10px;
+}
 .section-1-img,
 .section-2-img {
     border-radius: 5px 50px 5px 50px;
