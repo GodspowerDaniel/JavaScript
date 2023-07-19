@@ -1,21 +1,28 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
     max-width: 60vw;
     margin: auto;
     background-color: rgb(196, 155, 235);
 }
-.section-1-wrapper, .section-2-wrapper{
+
+.section-1-wrapper,
+.section-2-wrapper {
     display: flex;
     column-gap: 10px;
     margin-top: 50px;
 }
-h1{
+
+h1 {
     color: palevioletred;
     margin-bottom: 10px;
 }
-p{margin-top: 20px;}
+
+p {
+    margin-top: 20px;
+}
