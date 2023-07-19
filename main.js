@@ -1,6 +1,9 @@
 let date = new Date();
 const clickToCheck = document.getElementById('check');
 
+const otpDisplay = document.getElementById('otp-popup');
+const generateOtp = document.getElementById('generate');
+
 const result = document.getElementById('result');
 
 let staticDate = new Date(2005, 1, 11);
@@ -21,4 +24,8 @@ if (enterAmount >= 5000){
 } else {
     result.innerHTML = 'Your do not have enough fund, make it 5k and come back later';
 }
+});
+
+generateOtp.addEventListener('click', function(){
+    otpDisplay.textContent = Math.floor(Math.random() * 1000000);
 });
