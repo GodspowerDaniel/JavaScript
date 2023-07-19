@@ -22,7 +22,7 @@ clickToCheck.addEventListener('click', function(){
 if (enterAmount >= 5000){
     result.textContent = 'You can get just a bottle, Proceed to Checkout session Now!';
 } else {
-    result.innerHTML = 'Your do not have enough fund, make it 5k and come back later';
+    result.innerHTML = 'You do not have enough fund, make it 5k and come back later';
 }
 });
 
