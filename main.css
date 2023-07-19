@@ -8,7 +8,6 @@ body {
     width: 100vw;
     max-width: 60vw;
     margin: auto;
-    background-color: rgb(196, 155, 235);
 }
 main{
     margin-top: 30px;
@@ -85,7 +84,7 @@ p {
     body {
         width: 100vw;
         max-width: 80vw;
-        background-color: wheat;
+
     }
 
     .section-1-wrapper,
