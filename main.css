@@ -85,13 +85,13 @@ p {
     body {
         width: 100vw;
         max-width: 80vw;
-        background-color: wheat;
     }
 
     .section-1-wrapper,
     .section-2-wrapper {
         display: block;
         margin-top: 50px;
+        background-color: wheat;
     }
     .section-2-wrapper, .null {
         display: none;
