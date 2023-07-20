@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+<p class="done" id="done"></p>
+
+
+
+    <script>
+        let theBoys = ['chima', 'Ebuka', 'Tony', 'Eben', 'Collins', 'Sanmmy', 'Mane'];
+        let displayNames = '';
+        let i;
+
+        for (i = 2; i < theBoys.length; i++) {
+            displayNames += theBoys[i] + '<br>'
+        };
+document.getElementById('done').innerHTML = displayNames;
+    </script>
+</body>
+
+</html>
